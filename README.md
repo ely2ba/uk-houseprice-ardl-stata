@@ -1,5 +1,5 @@
 # uk-houseprice-ardl-stata
-A self-designed, fully reproducible Stata workflow for an ARDL time-series analysis of UK house-price growth (1992 Q2 – 2024 Q4). I chose the research question independently and collected all raw data myself as part of my ECM314 Econometrics coursework.
+A self-designed Stata workflow for an ARDL time-series analysis of UK house-price growth (1992 Q2 – 2024 Q4). I chose the research question independently and collected all raw data myself as part of my ECM314 Econometrics coursework.
 
 
 # UK House-Price Dynamics (1992 Q2 – 2024 Q4)

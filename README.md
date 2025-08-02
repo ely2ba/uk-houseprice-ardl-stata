@@ -1,3 +1,4 @@
+
 # UK House-Price Dynamics, 1992 Q2 – 2024 Q4  
 *A self-designed, fully reproducible Stata workflow for an ARDL study of UK house-price dynamics (ECM314 – MSc Econometrics). I defined the research question, collected every raw dataset, and built the entire pipeline from scratch.*
 
@@ -67,3 +68,76 @@ Real UK house prices have **tripled since the early-1990s recession**, yet the r
 ---
 
 ## 5 Repo Structure
+```
+
+uk-houseprice-ardl-stata/
+├── code/            # Stata .do files (01\_… to master\_run.do)
+├── data/
+│   ├── raw/         # Raw ONS & BoE files  ← put downloads here
+│   └── clean/       # Generated houseprices\_clean.dta
+├── figures/         # PNG charts
+├── logs/            # Stata run logs
+├── output/          # Tables (.rtf)
+├── LICENSE.md
+├── .gitignore
+└── README.md
+
+````
+
+---
+
+## 6 Replicate in Two Steps
+```bash
+# 1 Clone
+git clone https://github.com/ely2ba/uk-houseprice-ardl-stata.git
+cd uk-houseprice-ardl-stata
+
+# 2 Run in Stata 17/18
+* if needed: ssc install estout
+do code/master_run.do
+````
+
+Cleaned data, tables, figures and logs regenerate in ≤ 30 s.
+
+---
+
+## 7 Limitations & Next Steps
+
+* **Rate proxy:** Bank Rate ≠ effective mortgage rate → future work will use quoted fixed-rate series.
+* **Regime shifts:** Structural-break ARDL may reveal pre-/post-2008 parameter changes.
+* **Regional heterogeneity:** London vs. Rest-of-UK split could clarify the positive supply sign.
+
+---
+
+## 8 Raw Data Links
+
+*(all under the UK Open Government Licence)*
+
+* UK HPI – Table 15 [https://www.ons.gov.uk/](https://www.ons.gov.uk/)
+* CPI (CZBH) & Real Income [https://www.ons.gov.uk/](https://www.ons.gov.uk/)
+* Housing Completions – Table 1a [https://www.ons.gov.uk/](https://www.ons.gov.uk/)
+* Bank Rate (IUDERB4) [https://www.bankofengland.co.uk/](https://www.bankofengland.co.uk/)
+
+---
+
+## 9 How to Cite
+
+```text
+Cheikh, E. (2025). UK House-Price Dynamics (1992–2024): An ARDL Analysis. GitHub repository.
+```
+
+---
+
+## 10 License
+
+Released under the **MIT License** – see `LICENSE.md`.
+
+---
+
+## 11 Contact
+
+Questions or suggestions welcome!
+📧 [founder@taci.ai](mailto:founder@taci.ai) | 🔗 [https://www.linkedin.com/in/ely2ch/](https://www.linkedin.com/in/ely2ch/)
+
+*Last updated: May 2025*
+

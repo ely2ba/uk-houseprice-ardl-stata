@@ -94,8 +94,8 @@ uk-house-price-ardl-analysis/
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/<your-name>/uk-house-price-ardl-analysis.git
-   cd uk-house-price-ardl-analysis
+   git clone [https://github.com/ely2ba/uk-houseprice-ardl-stata.git]
+   cd uk-house-price-ardl-stata
    ```
 2. **Run the master script in Stata 17/18**
 
@@ -130,7 +130,7 @@ Everything—cleaned data, tables, figures, logs—recreates in ≤ 30 s.
 ## 9 How to Cite
 
 ```text
-Baba, E. (2025). UK House-Price Dynamics (1992–2024): An ARDL Analysis. GitHub repository.
+Cheikh, E. (2025). UK House-Price Dynamics (1992–2024): An ARDL Analysis. GitHub repository.
 ```
 
 ---
@@ -144,8 +144,8 @@ Released under the **MIT License** – see `LICENSE.md`.
 ## 11 Contact
 
 Questions or suggestions welcome!
-📧 elybaba\[at]example.com | 🔗 [https://www.linkedin.com/in/ely-baba](https://www.linkedin.com/in/ely-baba)
+📧 founder@taci.ai | 🔗 [[[https://www.linkedin.com/in/ely-baba](https://www.linkedin.com/in/elybaba/)]](https://www.linkedin.com/in/ely2ch/)
 
 ---
 
-*Last updated: August 2025*
+*Last updated: May 2025*

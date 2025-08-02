@@ -73,7 +73,7 @@ Real UK house prices have **tripled since the early-1990s recession**, yet the r
 uk-houseprice-ardl-stata/
 ├── code/            # Stata .do files (01\_… to master\_run.do)
 ├── data/
-│   ├── raw/         # Raw ONS & BoE files  ← put downloads here
+│   ├── raw/         # Raw ONS & BoE files  
 │   └── clean/       # Generated houseprices\_clean.dta
 ├── figures/         # PNG charts
 ├── logs/            # Stata run logs

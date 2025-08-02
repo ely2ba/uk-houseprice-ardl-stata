@@ -144,7 +144,7 @@ Released under the **MIT License** – see `LICENSE.md`.
 ## 11 Contact
 
 Questions or suggestions welcome!
-📧 founder@taci.ai | 🔗 [[[https://www.linkedin.com/in/ely-baba](https://www.linkedin.com/in/elybaba/)]](https://www.linkedin.com/in/ely2ch/)
+📧 founder@taci.ai | 🔗 (https://www.linkedin.com/in/ely2ch/)
 
 ---
 

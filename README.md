@@ -1,6 +1,6 @@
 
 # UK House-Price Dynamics, 1992 Q2 – 2024 Q4  
-*A self-designed, fully reproducible Stata workflow for an ARDL study of UK house-price dynamics (ECM314 – MSc Econometrics). I defined the research question, collected every raw dataset, and built the entire pipeline from scratch.*
+*This project was developed independently for my ECM314 Econometrics coursework, where I selected the research question, sourced the data, and carried out the full analysis workflow using Stata.*
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)&nbsp;
 [![Stata 18](https://img.shields.io/badge/Stata-17%2F18-lightgrey)](https://www.stata.com)

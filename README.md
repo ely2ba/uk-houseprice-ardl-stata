@@ -1,6 +1,6 @@
 
 # UK House-Price Dynamics, 1992 Q2 – 2024 Q4  
-*Developed for my ECM314 Econometrics coursework, this project explores a self-chosen research question on UK house prices using publicly sourced data and a fully reproducible Stata pipeline.*
+*Developed for my ECM314 Econometrics coursework (05/2025), this project explores a self-chosen research question on UK house prices using publicly sourced data and a fully reproducible Stata pipeline.*
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)&nbsp;
 [![Stata 18](https://img.shields.io/badge/Stata-17%2F18-lightgrey)](https://www.stata.com)
